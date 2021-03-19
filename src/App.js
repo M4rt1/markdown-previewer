@@ -7,7 +7,31 @@ export default class App extends React.Component{
   constructor(props){
     super(props);
     this.state={
-      markdown:`Example of <h1>H1</h1><br/><h2>H2</h2><br/><a href="#">Blank link</a><br/><script>console.log("You can use scripts");</script></br><div>Some text in div</div><script>if(true){let x=2; let y=2;}</script></br><ul><li>List</li><li>of</li><li>elements</li></ul></br><blockquote cite="https://www.theatlantic.com/magazine/archive/2015/11/we-need-an-energy-miracle/407881/"><p>Every single year we’ll be emitting more greenhouse gases than the previous year. - Bill Gates</p></blockquote></br><img src="#" alt="Here should be image"/></br><b>Bold text</b>`,
+      markdown:`# Here is H1  
+## Here is H2
+This is [Blank link](#)  
+This is some \`inline code \`
+~~~
+  <script>
+    if(true){
+      console.log('This is code block');
+    }
+  </script>
+~~~
+1. This
+2. Is
+3. List
+    1. With
+    2. Nested
+4. List  
+
+>"Every single we’ll be emitting more greenhouse gases than the previous year. 
+>
+>>by Bill Gates  
+
+![This is image (or supposed to be)](#)  
+
+This is **bold** text`,
     };
     this.updateMarkdown=this.updateMarkdown.bind(this);
     this.handleChangeMarkdown=this.handleChangeMarkdown.bind(this);
@@ -57,6 +81,7 @@ export default class App extends React.Component{
       width:'400px',
       minHeight:'50vh',
       backgroundColor:'#DCDCDC',
+      textAlign:'left',
       marginLeft:'auto',
       marginRight:'auto',
       marginBottom:'15px',
