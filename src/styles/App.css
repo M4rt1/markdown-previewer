@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+.App {
+  height: 100vh;
+  background-image: url("../imgs/robot-bg.jpg");
+  background-size: contain;
+  background-attachment: local;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mark-input {
+  background-blend-mode: color;
+}
+/*# sourceMappingURL=App.css.map */
