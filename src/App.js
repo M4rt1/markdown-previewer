@@ -79,7 +79,8 @@ This is **bold** text`,
 
     let outputStyle = {
       width:'400px',
-      minHeight:'50vh',
+      height:'50vh',
+      overflowY:'scroll',
       backgroundColor:'#DCDCDC',
       textAlign:'left',
       marginLeft:'auto',
