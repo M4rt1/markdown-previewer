@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/markdown-previewer/static/css/main.93f7b8b1.chunk.css",
+    "main.js": "/markdown-previewer/static/js/main.81583ab5.chunk.js",
+    "main.js.map": "/markdown-previewer/static/js/main.81583ab5.chunk.js.map",
+    "runtime-main.js": "/markdown-previewer/static/js/runtime-main.6f86a68d.js",
+    "runtime-main.js.map": "/markdown-previewer/static/js/runtime-main.6f86a68d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/markdown-previewer/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.55dc224a.chunk.js": "/markdown-previewer/static/js/2.55dc224a.chunk.js",
+    "static/js/2.55dc224a.chunk.js.map": "/markdown-previewer/static/js/2.55dc224a.chunk.js.map",
+    "static/js/3.978db82a.chunk.js": "/markdown-previewer/static/js/3.978db82a.chunk.js",
+    "static/js/3.978db82a.chunk.js.map": "/markdown-previewer/static/js/3.978db82a.chunk.js.map",
+    "index.html": "/markdown-previewer/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/markdown-previewer/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.93f7b8b1.chunk.css.map": "/markdown-previewer/static/css/main.93f7b8b1.chunk.css.map",
+    "static/js/2.55dc224a.chunk.js.LICENSE.txt": "/markdown-previewer/static/js/2.55dc224a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/markdown-previewer/static/media/robot-bg.35a36ec8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f86a68d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.55dc224a.chunk.js",
+    "static/css/main.93f7b8b1.chunk.css",
+    "static/js/main.81583ab5.chunk.js"
+  ]
+}
