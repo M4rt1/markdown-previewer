@@ -1,2 +1,6 @@
-
+body {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=style.css.map */

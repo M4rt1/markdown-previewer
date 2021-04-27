@@ -69,7 +69,7 @@ This is **bold** text`,
     let marked=require('marked');
 
     let inputStyle = {
-      width:'400px',
+      width:'100%',
       height:'50vh',
       marginLeft: 'auto',
       marginRight:'auto',
@@ -78,7 +78,7 @@ This is **bold** text`,
     };
 
     let outputStyle = {
-      width:'400px',
+      width:'100%',
       height:'50vh',
       overflowY:'scroll',
       backgroundColor:'#DCDCDC',
@@ -100,12 +100,11 @@ This is **bold** text`,
             <div className='container'>
 
               {/** title header */}
-              <h1>
+              <h1 id='title-header'>
                 <Badge className='text-align-center' variant='light'>
-                  Markdown Previewer
+                  <p id='app-title'>Markdown Previewer</p>
                 </Badge>
               </h1>
-
               <div className='row mt-4'>
                 <div className='col-md-6'>
 
@@ -113,7 +112,7 @@ This is **bold** text`,
                   <div className='col text-center'>
                     <h2>
                       <Badge className='text-align-center' variant='light'>
-                        Markdown Input
+                        <p class='header-title'>Markdown Input</p>
                       </Badge>
                     </h2>
                   </div>
@@ -129,13 +128,13 @@ This is **bold** text`,
 
                 </div>
 
-                <div className='col-md-6'>
+                <div className='col-md-6 preview-column'>
 
                   {/** preview div */}
                   <div className='col text-center'>
-                    <h2>
+                    <h2 class='header-title'>
                       <Badge className='text-align-center' variant='light'>
-                        Preview
+                        <p class='header-title'>Preview</p>
                       </Badge>
                     </h2>
                   </div>
@@ -161,6 +160,7 @@ This is **bold** text`,
             </div>
           </div>
         </div>
+        <footer>App made by Martin Bulkowki</footer>
       </div>
     )
   }

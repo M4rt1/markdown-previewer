@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 button {
   margin-bottom: 15px;
 }
@@ -9,5 +11,119 @@ button {
 
 .mark-input {
   background-blend-mode: color;
+}
+
+#app-title {
+  font-family: 'Orelega One', cursive;
+  color: #E6660B;
+  font-size: 60px;
+}
+
+@media (max-width: 730px) {
+  #app-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  #app-title {
+    font-size: 26px;
+  }
+}
+
+.reset-style {
+  -webkit-box-shadow: 0px 0px 0px 0px #fff6af;
+          box-shadow: 0px 0px 0px 0px #fff6af;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #E6660B), to(#ffab23));
+  background: linear-gradient(to bottom, #E6660B 5%, #ffab23 100%);
+  background-color: #E6660B;
+  border-radius: 10px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #ffee66;
+  color: #fdfbfb;
+  margin-top: 5px;
+}
+
+.reset-style:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+  color: #353434;
+}
+
+.reset-style:active {
+  position: relative;
+  top: 1px;
+}
+
+.header-title {
+  color: #663F24;
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.save-style {
+  -webkit-box-shadow: 0px 0px 0px 0px #fff6af;
+          box-shadow: 0px 0px 0px 0px #fff6af;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #E6660B), to(#ffab23));
+  background: linear-gradient(to bottom, #E6660B 5%, #ffab23 100%);
+  background-color: #E6660B;
+  border-radius: 10px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #ffee66;
+  color: #fdfbfb;
+  margin-top: 10px;
+}
+
+.save-style:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+  color: #353434;
+}
+
+.save-style:active {
+  position: relative;
+  top: 1px;
+}
+
+#preview {
+  width: '400px';
+  height: '50vh';
+  overflow-y: 'scroll';
+  background-color: '#DCDCDC';
+  text-align: 'left';
+  margin-left: 'auto';
+  margin-right: 'auto';
+  margin-bottom: '15px';
+  padding: '10px';
+}
+
+footer {
+  position: absolute;
+  color: #5a5a5a;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  text-align: end;
+  padding-right: 20px;
+  font-size: 12px;
+  font-style: italic;
 }
 /*# sourceMappingURL=App.css.map */
