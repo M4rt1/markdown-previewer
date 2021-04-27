@@ -2,7 +2,7 @@
   "homepage": "http://M4rt1.github.io/markdown-previewer/",
   "name": "markdown-previewer",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@progress/kendo-file-saver": "^1.1.0",
     "@testing-library/jest-dom": "^5.11.9",
